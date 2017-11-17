@@ -15,7 +15,7 @@ app.start = () => {
 
     if ( app.get('loopback-component-explorer') ) {
       let explorerPath = app.get('loopback-component-explorer').mountPath;
-      console.log(`REST API is located at ${baseUrl} ${explorerPath}`);
+      console.log(`REST API is located at ${baseUrl}${explorerPath}`);
     }
   });
 }
